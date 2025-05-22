@@ -28,7 +28,7 @@ This project uses **BERT (Bidirectional Encoder Representations from Transformer
 ### 2. Tokenization
 
 * BERT tokenizer (`bert-large-uncased`) with padding/truncation to max length 17.
-* Convert tokens and attention masks to PyTorch tensors.
+* Convert tokens and attention masks to PyTorch tensors
 
 ### 3. Model Architecture
 
@@ -64,7 +64,7 @@ pip install pandas numpy matplotlib scikit-learn torch transformers nlpaug nltk
 ## 📊 Model Performance
 
 * Evaluation includes precision, recall, and F1-score for binary classification.
-* Designed to handle imbalanced class distributions using weighted loss.
+* Designed to handle imbalanced class distributions using weighted loss
 
 ---
 
